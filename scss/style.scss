@@ -186,13 +186,14 @@ background-color: #FF352B;
 border: none;
 height: 40px;
 border-radius: 0.4rem;
-}    
-span{
+color: #333333;
 font-family: Rubik;
 font-weight: 700;
 font-size: 20px;
-    }
+}    
 }
+
+
 
 .header__block-container{
     display: flex;
@@ -880,7 +881,6 @@ padding: 10px 0 0 0;
             }
             }
 }
-
 
 @media (max-width: 375px){
     .burger{
