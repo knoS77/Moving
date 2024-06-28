@@ -232,6 +232,7 @@ header {
   font-family: Rubik;
   font-weight: 700;
   font-size: 20px;
+  outline: none;
 }
 .header__button button:active {
   -webkit-transition: 0.1s all;
@@ -371,6 +372,7 @@ section {
 }
 
 .two__button {
+  color: #333333;
   cursor: pointer;
   width: 250px;
   height: 51.34px;
@@ -808,17 +810,15 @@ input[type=number]::-webkit-outer-spin-button {
   .wrapper__img img {
     display: none;
   }
+  .reviews__body {
+    padding: 0 0 50px 0;
+    width: 300px;
+  }
   .section__four {
     margin: 370px 0 0 0;
     min-width: 100%;
-    min-height: 500px;
+    min-height: 680px;
     background-color: #FED100;
-  }
-  .reviews__block {
-    width: 280px;
-    height: 300px;
-    padding: 10px 0 20px 0;
-    margin: 15px 0 0 15px;
   }
   .reviews__button {
     display: none;
@@ -901,6 +901,9 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 @media (max-width: 375px) {
+  .reviews__body {
+    padding: 0 0 50px 0;
+  }
   .burger {
     margin: 0 25px 0 0;
   }
@@ -1035,6 +1038,9 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 @media (max-width: 425px) {
+  .reviews__body {
+    padding: 0 0 50px 0;
+  }
   .burger {
     margin: 0 25px 0 0;
   }
