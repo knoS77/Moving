@@ -89,12 +89,10 @@ function clickActive4(){
     let dotsFour = document.getElementById('dots4');
     let moreFour = document.getElementById('more4');
     let readFour = document.getElementById('read4');
-
     if (dotsFour.style.display === 'none'){
         dotsFour.style.display = 'inline';
         readFour.innerHTML = 'Читать Полностью';
         moreFour.style.display = 'none';
-
     } else{
         dotsFour.style.display = 'none';
         readFour.innerHTML = 'Читать Меньше';
@@ -143,7 +141,6 @@ btn.onclick = function(){
     let div = document.getElementById('newpost');
     let divTwo = document.getElementById('newpost2');
     let divThree = document.getElementById('newpost3');
-
     if (div.style.display !== 'none') {
         div.style.display = 'none';
         btn.innerHTML = 'Все отзывы'

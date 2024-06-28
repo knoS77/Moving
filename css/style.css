@@ -568,11 +568,33 @@ section {
   text-decoration: underline;
 }
 
-#moreFour {
+#more4 {
   display: none;
 }
 
-#readFour {
+#read4 {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600px;
+  text-decoration: underline;
+}
+
+#more5 {
+  display: none;
+}
+
+#read5 {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600px;
+  text-decoration: underline;
+}
+
+#more6 {
+  display: none;
+}
+
+#read6 {
   cursor: pointer;
   font-size: 17px;
   font-weight: 600px;
